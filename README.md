@@ -9,7 +9,7 @@ docker run --privileged --gpus all --net=host -e DISPLAY=$DISPLAY -e SDL_VIDEODR
 ```
 
 ### Python & Conda setup
-- 
+- pip install -r requirements.txt
 #### E2E model Setup
 - [InterFuser: Interpretable End-to-End Urban Autonomous Driving](https://github.com/opendilab/InterFuser.git)
 - [TCP: Trajectory-guided Control Prediction for End-to-end Autonomous Driving](https://github.com/OpenDriveLab/TCP)
