@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes><route id="34" town="Town06">
+      <weathers>
+         <weather cloudiness="80.000000" fog_density="0.000000" fog_distance="0.000000" precipitation="0.000000" precipitation_deposits="0.000000" route_percentage="0" sun_altitude_angle="75.000000" sun_azimuth_angle="315.000000" wetness="0.000000" wind_intensity="0.350000" />
+      </weathers>
+      <waypoints><position x="34.01061995926705" y="-18.167624335912834" z="0.0" /><position x="14.816600799560547" y="-144.05270385742188" z="0.0" /><position x="-12.265544891357422" y="-146.6119842529297" z="0.0" /><position x="-168.62306213378906" y="-15.322714805603027" z="0.0" /><position x="-363.71380615234375" y="95.12675476074219" z="0.0" /><position x="-363.73785400390625" y="223.50242614746094" z="0.0" /><position x="-143.7354736328125" y="149.302734375" z="0.0" /><position x="-266.0104675292969" y="145.5159149169922" z="0.0" /><position x="-321.90411376953125" y="110.2459945678711" z="0.0" /><position x="-325.0822239620396" y="84.52252765568457" z="0.0" /></waypoints><scenarios>
+         <scenario name="DynamicObjectCrossing_1" type="DynamicObjectCrossing">
+            <trigger_point x="-173.41339111328125" y="236.56182861328125" yaw="-0.10308279097080231" z="0.0" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_2" type="DynamicObjectCrossing">
+            <trigger_point x="-20.99" y="-22.5" yaw="179.0" z="1.9" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+            <trigger_point x="-308.861083984375" y="250.7201690673828" yaw="2.2249090671539307" z="0.0" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_4" type="DynamicObjectCrossing">
+            <trigger_point x="-363.11" y="58.42" yaw="89.0" z="1.9" />
+         </scenario>
+         <scenario name="ControlLoss_1" type="ControlLoss">
+            <trigger_point x="-239.58151245117188" y="250.680908203125" yaw="-0.10308279097080231" z="0.0" />
+         </scenario>
+      </scenarios>
+   </route>
+   </routes>

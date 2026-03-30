@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes><route id="34" town="Town06">
+      <weathers>
+         <weather cloudiness="30.0" fog_density="0.0" fog_distance="0.0" precipitation="0.0" precipitation_deposits="0.0" route_percentage="0" sun_altitude_angle="2.0" sun_azimuth_angle="180.0" wetness="0.0" wind_intensity="0.3" />
+      </weathers>
+      <waypoints><position x="-14.604988163798932" y="-132.62153923581457" z="0.0" /><position x="-11.940110206604004" y="-88.98528289794922" z="0.0" /><position x="-71.77831268310547" y="-19.175472259521484" z="0.0" /><position x="-365.9894714355469" y="187.96507263183594" z="0.0" /><position x="-86.20552825927734" y="226.76046752929688" z="0.0" /><position x="-74.31842041015625" y="205.86094665527344" z="0.0" /><position x="-266.0104675292969" y="145.5159149169922" z="0.0" /><position x="-299.3861389160156" y="139.00814819335938" z="0.0" /><position x="-321.90411376953125" y="110.2459945678711" z="0.0" /><position x="-326.51368766974804" y="95.66145270140849" z="0.0" /></waypoints><scenarios>
+         <scenario name="DynamicObjectCrossing_1" type="DynamicObjectCrossing">
+            <trigger_point x="-173.41339111328125" y="236.56182861328125" yaw="-0.10308279097080231" z="0.0" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_2" type="DynamicObjectCrossing">
+            <trigger_point x="-20.99" y="-22.5" yaw="179.0" z="1.9" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+            <trigger_point x="-308.861083984375" y="250.7201690673828" yaw="2.2249090671539307" z="0.0" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_4" type="DynamicObjectCrossing">
+            <trigger_point x="-363.11" y="58.42" yaw="89.0" z="1.9" />
+         </scenario>
+         <scenario name="ControlLoss_1" type="ControlLoss">
+            <trigger_point x="-239.58151245117188" y="250.680908203125" yaw="-0.10308279097080231" z="0.0" />
+         </scenario>
+      </scenarios>
+   </route>
+   </routes>

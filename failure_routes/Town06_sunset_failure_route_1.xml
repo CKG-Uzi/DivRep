@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes><route id="31" town="Town06">
+      <weathers>
+         <weather cloudiness="30.0" fog_density="0.0" fog_distance="0.0" precipitation="0.0" precipitation_deposits="0.0" route_percentage="0" sun_altitude_angle="2.0" sun_azimuth_angle="180.0" wetness="0.0" wind_intensity="0.3" />
+      </weathers>
+      <waypoints><position x="-70.40777535353631" y="40.62807529288675" z="0.0" /><position x="-12.85995864868164" y="70.89424133300781" z="0.0" /><position x="-134.30357360839844" y="135.32481384277344" z="0.0" /><position x="-295.25091552734375" y="137.2554473876953" z="0.0" /><position x="-30.824161529541016" y="52.41176223754883" z="0.0" /><position x="-8.989546775817871" y="113.14112854003906" z="0.0" /><position x="-3.0537493228912354" y="223.9975128173828" z="0.0" /><position x="46.23394775390625" y="244.5413818359375" z="0.0" /><position x="427.5462646484375" y="144.68125915527344" z="0.0" /><position x="504.73352064305874" y="107.67001460529616" z="0.0" /></waypoints><scenarios>
+         <scenario name="SignalizedJunctionLeftTurn_1" type="SignalizedJunctionLeftTurn">
+            <trigger_point x="-178.9329833984375" y="45.471580505371094" yaw="-0.023140989243984222" z="0.0" />
+         </scenario>
+         <scenario name="OppositeVehicleRunningRedLight_1" type="OppositeVehicleRunningRedLight">
+            <trigger_point x="-3.2199301719665527" y="213.46353149414062" yaw="89.09619140625" z="0.0" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_1" type="DynamicObjectCrossing">
+            <trigger_point x="324.3643798828125" y="147.75852966308594" yaw="0.23475661873817444" z="0.0" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_2" type="DynamicObjectCrossing">
+            <trigger_point x="26.002647399902344" y="244.53448486328125" yaw="0.019545903429389" z="0.0" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+            <trigger_point x="-85.3" y="135.19" yaw="180.0" z="1.9" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_4" type="DynamicObjectCrossing">
+            <trigger_point x="-20.99" y="-22.5" yaw="179.0" z="1.9" />
+         </scenario>
+      </scenarios>
+   </route>
+   </routes>

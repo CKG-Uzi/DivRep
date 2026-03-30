@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes><route id="14" town="Town03">
+      <weathers>
+         <weather cloudiness="10.0" fog_density="0.0" fog_distance="0.0" precipitation="0.0" precipitation_deposits="0.0" route_percentage="0" sun_altitude_angle="60.0" sun_azimuth_angle="90.0" wetness="0.0" wind_intensity="0.2" />
+      </weathers>
+      <waypoints><position x="-57.62481843812772" y="-137.41844509051063" z="0.0" /><position x="149.252685546875" y="-61.78711700439453" z="7.3580169677734375" /><position x="82.49311828613281" y="-57.35474395751953" z="6.393786907196045" /><position x="86.16959381103516" y="-175.06288146972656" z="1.2514665126800537" /><position x="120.54462432861328" y="-190.97378540039062" z="0.0" /><position x="167.17486572265625" y="80.66641998291016" z="0.16317512094974518" /><position x="148.43711853027344" y="124.3321533203125" z="0.4514743983745575" /><position x="-68.70186614990234" y="177.9541015625" z="0.0" /><position x="-74.59652709960938" y="157.3665771484375" z="0.0" /><position x="-146.42419224511508" y="121.1472751241591" z="0.0" /></waypoints><scenarios>
+         <scenario name="SignalizedJunctionRightTurn_1" type="SignalizedJunctionRightTurn">
+            <trigger_point x="231.4" y="23.39" yaw="91.0" z="1.0" />
+         </scenario>
+         <scenario name="SignalizedJunctionLeftTurn_1" type="SignalizedJunctionLeftTurn">
+            <trigger_point x="-32.34" y="-135.1" yaw="0.0" z="1.0" />
+         </scenario>
+         <scenario name="OppositeVehicleRunningRedLight_1" type="OppositeVehicleRunningRedLight">
+            <trigger_point x="-73.85211944580078" y="164.83070373535156" yaw="258.85479736328125" z="0.0" />
+         </scenario>
+         <scenario name="SignalizedJunctionLeftTurn_2" type="SignalizedJunctionLeftTurn">
+            <trigger_point x="122.3" y="-190.88" yaw="1.0" z="1.21" />
+         </scenario>
+         <scenario name="SignalizedJunctionLeftTurn_3" type="SignalizedJunctionLeftTurn">
+            <trigger_point x="52.2" y="-133.34" yaw="1.0" z="6.48" />
+         </scenario>
+         <scenario name="SignalizedJunctionRightTurn_2" type="SignalizedJunctionRightTurn">
+            <trigger_point x="119.41" y="-132.31" yaw="1.0" z="9.0" />
+         </scenario>
+         <scenario name="OppositeVehicleRunningRedLight_2" type="OppositeVehicleRunningRedLight">
+            <trigger_point x="34.39" y="130.77" yaw="179.0" z="1.0" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_1" type="DynamicObjectCrossing">
+            <trigger_point x="234.85678100585938" y="-144.6316375732422" yaw="86.64344024658203" z="0.0" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_2" type="DynamicObjectCrossing">
+            <trigger_point x="232.93157958984375" y="-54.01557540893555" yaw="91.3932113647461" z="0.0" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+            <trigger_point x="185.9499969482422" y="-193.89999389648438" yaw="0.0" z="0.0" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_4" type="DynamicObjectCrossing">
+            <trigger_point x="227.7465362548828" y="-173.4008331298828" yaw="65.59180450439453" z="0.0" />
+         </scenario>
+      </scenarios>
+   </route>
+   </routes>

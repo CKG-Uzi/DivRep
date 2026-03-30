@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes><route id="35" town="Town06">
+      <weathers>
+         <weather cloudiness="30.0" fog_density="0.0" fog_distance="0.0" precipitation="0.0" precipitation_deposits="0.0" route_percentage="0" sun_altitude_angle="2.0" sun_azimuth_angle="180.0" wetness="0.0" wind_intensity="0.3" />
+      </weathers>
+      <waypoints><position x="-12.132227582139313" y="117.2149500930594" z="0.0" /><position x="-301.0727233886719" y="62.79859924316406" z="0.0" /><position x="-284.6680908203125" y="53.94207763671875" z="0.0" /><position x="-12.838273048400879" y="73.40508270263672" z="0.0" /><position x="-12.47103500366211" y="114.4439697265625" z="0.0" /><position x="-278.5771179199219" y="134.83627319335938" z="0.0" /><position x="-258.39715576171875" y="54.81446075439453" z="0.0" /><position x="20.160364151000977" y="45.37941360473633" z="0.0" /><position x="55.88312530517578" y="41.84577560424805" z="0.0" /><position x="124.17719631435716" y="33.766580175554154" z="0.0" /></waypoints><scenarios>
+         <scenario name="SignalizedJunctionLeftTurn_1" type="SignalizedJunctionLeftTurn">
+            <trigger_point x="44.21311569213867" y="-16.097919464111328" yaw="179.79132080078125" z="0.0" />
+         </scenario>
+         <scenario name="SignalizedJunctionLeftTurn_2" type="SignalizedJunctionLeftTurn">
+            <trigger_point x="-178.9329833984375" y="45.471580505371094" yaw="-0.023140989243984222" z="0.0" />
+         </scenario>
+         <scenario name="ControlLoss_1" type="ControlLoss">
+            <trigger_point x="-178.9071807861328" y="48.9715690612793" yaw="-0.023140989243984222" z="0.0" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_1" type="DynamicObjectCrossing">
+            <trigger_point x="18.99" y="45.59" yaw="0.0" z="1.9" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_2" type="DynamicObjectCrossing">
+            <trigger_point x="-85.3" y="135.19" yaw="180.0" z="1.9" />
+         </scenario>
+         <scenario name="ControlLoss_2" type="ControlLoss">
+            <trigger_point x="-85.49070739746094" y="138.93931579589844" yaw="180.13438415527344" z="0.0" />
+         </scenario>
+         <scenario name="DynamicObjectCrossing_3" type="DynamicObjectCrossing">
+            <trigger_point x="-21.892196655273438" y="-15.857145309448242" yaw="179.79132080078125" z="0.0" />
+         </scenario>
+         <scenario name="SignalizedJunctionLeftTurn_3" type="SignalizedJunctionLeftTurn">
+            <trigger_point x="-44.83143615722656" y="45.41741943359375" yaw="-0.023140989243984222" z="0.0" />
+         </scenario>
+      </scenarios>
+   </route>
+</routes>
