@@ -9,14 +9,33 @@ docker run --privileged --gpus all --net=host -e DISPLAY=$DISPLAY -e SDL_VIDEODR
 ```
 
 ### Python & Conda setup
+```markdown
+```bash
 - pip install -r requirements.txt
+```
 #### E2E model Setup
 - [InterFuser: Interpretable End-to-End Urban Autonomous Driving](https://github.com/opendilab/InterFuser.git)
 - [TCP: Trajectory-guided Control Prediction for End-to-end Autonomous Driving](https://github.com/OpenDriveLab/TCP)
+- Failure data collection: 
+1. In `route_scenario.py`, update the collision criterion to terminate on failure.
+
+**Before:**
+```python
+collision_criterion = CollisionTest(self.ego_vehicles[0], terminate_on_failure=False)
+collision_criterion = CollisionTest(self.ego_vehicles[0], terminate_on_failure=True)
+```
+2. revise the following files to the carla leaderboard files for each model to collect the failure data, as shown in ```leaderboard```
+
+- Mutation of existing scenarios:
 
 
-## Diversity
-- This repository is to demonstrate compute the diversity metrics GED-based distance for a failure frames. and it is revised from https://github.com/AICPS/roadscene2vec.git.
-- File structure:
-## Reproduction
+
+
+## Reproducing the results
+### RQ1. Effectiveness evaluation
+
+
+
+
+
 
