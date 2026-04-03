@@ -108,7 +108,8 @@ class LeaderboardEvaluator(object):
         signal.signal(signal.SIGINT, self._signal_handler)
 
         # write a failure recoridng mode:
-        self.failure_record = True
+        if args.failreu_recording:
+            self.failure_record = True
 
     def _signal_handler(self, signum, frame):
         """
@@ -410,7 +411,8 @@ class LeaderboardEvaluator(object):
             route_indexer.resume(args.checkpoint)
             self.statistics_manager.resume(args.checkpoint)
         elif self.failure_record:
-
+            route_indexer.resume_failure(args.checkpoint)
+            self.statistics_manager.resume_failure(args.checkpoint)
         else:
             self.statistics_manager.clear_record(args.checkpoint)
             route_indexer.save_state(args.checkpoint)
