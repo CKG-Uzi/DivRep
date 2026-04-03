@@ -22,8 +22,12 @@ docker run --privileged --gpus all --net=host -e DISPLAY=$DISPLAY -e SDL_VIDEODR
 **Before:**
 ```python
 collision_criterion = CollisionTest(self.ego_vehicles[0], terminate_on_failure=False)
+```
+**After:**
+```python
 collision_criterion = CollisionTest(self.ego_vehicles[0], terminate_on_failure=True)
 ```
+
 2. revise the following files to the carla leaderboard files for each model to collect the failure data, as shown in ```leaderboard```
 
 - Mutation of existing scenarios:
